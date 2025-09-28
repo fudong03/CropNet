@@ -7,13 +7,41 @@
 The CropNet dataset is an open, large-scale, and deep learning-ready dataset, specifically targeting climate change-aware crop yield predictions for the contiguous United States (U.S.) continent at the county level. It is composed of three modalities of data, i.e., Sentinel-2 Imagery, WRF-HRRR Computed Dataset, and USDA Crop Dataset, aligned in both the spatial and temporal domains, for over 2200 U.S. counties spanning 6 years (2017-2022). It is expected to facilitate researchers in developing deep learning models for timely and precisely predicting crop yields at the county level, by accounting for the effects of both short-term growing season weather variations and long-term climate change on crop yields. Although our initial goal of crafting the CropNet dataset is for precise crop yield prediction, we believe its future applicability is broad and can benefit the deep learning, agriculture, and meteorology communities, for exploring more interesting, critical, and climate change-related applications, by using one or more modalities of data.
 
 
+## Citation
+
+If our dataset supports your research, please acknowledge it by citing [our paper](https://dl.acm.org/doi/10.1145/3637528.3671536):
+
+```
+@inproceedings{fudong:kdd24:crop_net,
+  author       = {Fudong Lin and Kaleb Guillot and Summer Crawford and Yihe Zhang and Xu Yuan and Nian{-}Feng Tzeng},
+  title        = {An Open and Large-Scale Dataset for Multi-Modal Climate Change-aware Crop Yield Predictions},
+  booktitle    = {Proceedings of the 30th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining (KDD)},
+  pages        = {5375--5386},
+  year         = {2024}
+}
+```
+
+
+[Our MMST-ViT model](https://openaccess.thecvf.com/content/ICCV2023/papers/Lin_MMST-ViT_Climate_Change-aware_Crop_Yield_Prediction_via_Multi-Modal_Spatial-Temporal_Vision_ICCV_2023_paper.pdf) illustrates the development of deep learning methods for climate change-aware crop yield prediction. If you find MMST-ViT useful in your research, please consider citing our paper:
+
+```
+@inproceedings{fudong:iccv23:mmst_vit,
+  title={MMST-ViT: Climate Change-aware Crop Yield Prediction via Multi-Modal Spatial-Temporal Vision Transformer},
+  author={Lin, Fudong and Crawford, Summer and Guillot, Kaleb and Zhang, Yihe and Chen, Yan and Yuan, Xu and others},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={5774--5784},
+  year={2023}
+}
+```
+
+
 
 ## Contributions
 
 #### The `CropNet` dataset
 
 - The first *terabyte-sized*, publicly available, and multi-modal dataset for climate change-aware crop yield predictions
-- The `CropNet` dataset is available at [Google Drive](https://drive.google.com/drive/folders/1Js98GAxf1LeAUTxP1JMZZIrKvyJStDgz)
+- The `CropNet` dataset is available at [HuggingFace Dataset](https://drive.google.com/drive/folders/1Js98GAxf1LeAUTxP1JMZZIrKvyJStDgz](https://huggingface.co/datasets/CropNet/CropNet)
 
 #### The `CropNet` package 
 
