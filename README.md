@@ -41,12 +41,12 @@ If our dataset supports your research, please acknowledge it by citing [our pape
 #### The `CropNet` dataset
 
 - The first *terabyte-sized*, publicly available, and multi-modal dataset for climate change-aware crop yield predictions
-- The `CropNet` dataset is available at [HuggingFace Dataset](https://drive.google.com/drive/folders/1Js98GAxf1LeAUTxP1JMZZIrKvyJStDgz](https://huggingface.co/datasets/CropNet/CropNet)
+- The `CropNet` dataset is available at [HuggingFace Dataset](https://huggingface.co/datasets/CropNet/CropNet).
 
 #### The `CropNet` package 
 
 - A *deep learning-ready* Python package for facilitating researchers in downloading the CropNet data on the fly over the time and region of interest, and developing deep neural networks (DNNs) for climate change-aware crop yield predictions
-- The `CropNet` package is available at [Python Package Index (PyPI)](https://pypi.org/project/cropnet/)
+- The `CropNet` package is available at [Python Package Index (PyPI)](https://pypi.org/project/cropnet/).
 
 
 
